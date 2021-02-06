@@ -14,3 +14,8 @@
 # ActiveSupport::Inflector.inflections(:en) do |inflect|
 #   inflect.acronym 'RESTful'
 # end
+
+# Custom changes
+ActiveSupport::Inflector.inflections do |inflect|
+  inflect.irregular 'human', 'humans'
+end
